@@ -7,8 +7,7 @@
       .panel
         %h2= site_hostname
 
-        - unless @instance_presenter.site_description.blank?
-          %p!= @instance_presenter.site_description
+        %p= t 'about.site_description'
 
       .information-board
         .section
