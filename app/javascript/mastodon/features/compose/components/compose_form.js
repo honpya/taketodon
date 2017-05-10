@@ -18,6 +18,7 @@ import { isMobile } from '../../../is_mobile';
 import ImmutablePureComponent from 'react-immutable-pure-component';
 import { length } from 'stringz';
 import { countableText } from '../util/counter';
+import PlayMusic from '../../../components/play_music';
 
 const messages = defineMessages({
   placeholder: { id: 'compose_form.placeholder', defaultMessage: 'What is on your mind?' },
