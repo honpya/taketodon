@@ -28,8 +28,9 @@ ja:
     status_count_before: 成長具合
     terms: プライバシーポリシー
     user_count_after: 本
-    user_count_before: 植林数
+    user_count_before: 植樹数
     version: バージョン
+    site_description: 竹トドンでは竹や植物を主に受け入れています。
   accounts:
     follow: フォロー
     followers: フォロワー
