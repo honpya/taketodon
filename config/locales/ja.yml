@@ -24,11 +24,11 @@ ja:
     links: リンク
     other_instances: 他のインスタンス
     source_code: ソースコード
-    status_count_after: 成長
-    status_count_before: 成長具合(cm)
+    status_count_after: cm
+    status_count_before: 成長具合
     terms: プライバシーポリシー
     user_count_after: 本
-    user_count_before: ユーザー数
+    user_count_before: 植林数
     version: バージョン
   accounts:
     follow: フォロー
