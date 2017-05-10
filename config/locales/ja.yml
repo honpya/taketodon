@@ -9,7 +9,7 @@ ja:
     contact: 連絡先
     contact_missing: 未設定
     contact_unavailable: N/A
-    description_headline: "%{domain} とは？"
+    description_headline: "竹トドンとは？"
     domain_count_after: 個のインスタンス
     domain_count_before: 接続中
     extended_description_html: |
@@ -29,10 +29,10 @@ ja:
     learn_more: もっと詳しく
     other_instances: 他のインスタンス
     source_code: ソースコード
-    status_count_after: トゥート
-    status_count_before: トゥート数
-    user_count_after: 人
-    user_count_before: ユーザー数
+    status_count_after: cm
+    status_count_before: 成長具合
+    user_count_after: 本
+    user_count_before: 植樹数
     what_is_mastodon: Mastodon とは？
   accounts:
     follow: フォロー
@@ -141,7 +141,7 @@ ja:
         report: レポート
         targeted_reports: このアカウントについてのレポート
       silence: サイレンス
-      statuses: トゥート数
+      statuses: 成長具合(cm)
       subscribe: 購読する
       title: アカウント
       unconfirmed_email: 確認待ちのメールアドレス
@@ -156,10 +156,10 @@ ja:
         change_email_user: "%{name} さんが %{target} さんのメールアドレスを変更しました"
         confirm_user: "%{name} さんが %{target} さんのメールアドレスを確認済みにしました"
         create_custom_emoji: "%{name} さんがカスタム絵文字 %{target} を追加しました"
-        create_domain_block: "%{name} さんがドメイン %{target} をブロックしました"
+        create_domain_block: "%{name} さんがドメイン %{target} を根絶やしにしました"
         create_email_domain_block: "%{name} さんがドメイン %{target} をメールアドレス用ブラックリストに追加しました"
         demote_user: "%{name} さんが %{target} さんを降格しました"
-        destroy_domain_block: "%{name} さんがドメイン %{target} のブロックを外しました"
+        destroy_domain_block: "%{name} さんがドメイン %{target} の根絶やしを解除しました"
         destroy_email_domain_block: "%{name} さんがドメイン %{target} をメールアドレス用ブラックリストから外しました"
         destroy_status: "%{name} さんが %{target} さんの投稿を削除しました"
         disable_2fa_user: "%{name} さんが %{target} さんの二段階認証を無効化しました"
@@ -215,7 +215,7 @@ ja:
         create: ブロックを作成
         hint: ドメインブロックはデータベース中のアカウント項目の作成を妨げませんが、遡って自動的に指定されたモデレーションをそれらのアカウントに適用します。
         severity:
-          desc_html: "<strong>サイレンス</strong>はアカウントのトゥートをフォローしていない人から隠します。<strong>停止</strong>はそのアカウントのコンテンツ、メディア、プロフィールデータをすべて削除します。メディアファイルの拒否は<strong>なし</strong>を使います。"
+          desc_html: "<strong>サイレンス</strong>はアカウントの成長をフォローしていない人から隠します。<strong>停止</strong>はそのアカウントのコンテンツ、メディア、プロフィールデータをすべて削除します。メディアファイルの拒否は<strong>なし</strong>を使います。"
           noop: なし
           silence: サイレンス
           suspend: 停止
@@ -469,10 +469,10 @@ ja:
       in_progress: 準備中...
       request: アーカイブをリクエスト
       size: 容量
-    blocks: ブロック
+    blocks: 根絶やし
     csv: CSV
     follows: フォロー
-    mutes: ミュート
+    mutes: 間伐
     storage: メディア
   followers:
     domain: ドメイン
@@ -552,9 +552,9 @@ ja:
         other: "新しい%{count}件の通知 \U0001F418"
       title: 不在の間に…
     favourite:
-      body: "%{name} さんにお気に入り登録された、あなたのトゥートがあります:"
-      subject: "%{name} さんにお気に入りに登録されました"
-      title: 新たなお気に入り登録
+      body: "%{name} さんに肥料を与えられた、あなたの成長があります:"
+      subject: "%{name} さんに肥料を与えられました"
+      title: 新たな肥料を与えられた成長
     follow:
       body: "%{name} さんにフォローされています！"
       subject: "%{name} さんにフォローされています"
@@ -570,9 +570,9 @@ ja:
       subject: "%{name} さんに返信されました"
       title: 新たな返信
     reblog:
-      body: "%{name} さんにブーストされた、あなたのトゥートがあります:"
-      subject: "%{name} さんにブーストされました"
-      title: 新たなブースト
+      body: "%{name} さんに破竹の勢いと称された、あなたの成長があります:"
+      subject: "%{name} さんに破竹の勢いと称されました"
+      title: 新たな破竹の勢いと称された成長
   number:
     human:
       decimal_units:

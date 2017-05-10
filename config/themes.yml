@@ -1,2 +1,3 @@
 default: styles/application.scss
 contrast: styles/contrast.scss
+custom: styles/taketodon_custom.scss
