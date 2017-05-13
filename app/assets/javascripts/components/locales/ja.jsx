@@ -17,7 +17,7 @@ const ja = {
   "boost_modal.combo": "次からは{combo}を押せば、これをスキップできます。",
   "column.blocks": "根絶やしにしたユーザー",
   "column.community": "ローカルタイムライン",
-  "column.favourites": "肥料を与える",
+  "column.favourites": "肥料を与えた成長",
   "column.follow_requests": "フォローリクエスト",
   "column.home": "ホーム",
   "column.mutes": "間伐ユーザー",
