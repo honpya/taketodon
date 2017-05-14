@@ -11,15 +11,15 @@ ja:
     domain_count_after: 個のインスタンス
     domain_count_before: 接続中
     features:
-      api: アプリやその他サービスにAPIを公開
-      blocks: 豊富なブロックやミュート機能
-      characters: 1つの投稿は500文字まで利用可能
-      chronology: 時系列順のタイムライン
-      ethics: 広告もトラッキングもありません
-      gifv: GIFVや短い動画にも対応
-      privacy: 投稿ごとに公開範囲を細かく設定可能
-      public: 公開タイムライン
-    features_headline: 竹トドンの特徴
+      a: Mastodon の機能を利用可能
+      b: PC ブラウザの通知音が鹿威し
+      c: 雅さを追求
+      d: 和を追求
+      e: R-18コンテンツの投稿は禁止です
+      f: リモートフォローは原則禁止です
+      g: 画像のアップロードは控えめに
+      h: さぁ、いざ竹の世界へ
+    features_headline: 竹トドンの特徴 / ルール / お願い
     get_started: 参加する
     links: リンク
     other_instances: 他のインスタンス
