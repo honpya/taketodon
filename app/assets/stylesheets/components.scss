@@ -945,6 +945,11 @@ a.status__content__spoiler-link {
   font-size: 14px;
 }
 
+.shika:before {
+  content: "(鹿)";
+  color: #8d6449;
+}
+
 .status__relative-time,
 .detailed-status__datetime {
   &:hover {
