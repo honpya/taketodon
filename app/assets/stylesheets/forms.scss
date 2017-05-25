@@ -1,5 +1,5 @@
 code {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Sawarabi Mincho', monospace;
   font-weight: 400;
 }
 
@@ -10,6 +10,8 @@ code {
 }
 
 .simple_form {
+  font-family: 'Sawarabi Mincho';
+
   .input {
     margin-bottom: 15px;
   }
@@ -159,6 +161,7 @@ code {
     border-radius: 4px;
     background: $color4;
     color: $color5;
+    font-family: inherit;
     font-size: 18px;
     padding: 10px;
     text-transform: uppercase;

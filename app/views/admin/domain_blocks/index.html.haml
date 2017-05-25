@@ -1,6 +1,8 @@
 - content_for :page_title do
   = t('admin.domain_blocks.title')
 
+= link_to t('admin.domain_blocks.add_new'), new_admin_domain_block_path, class: 'button'
+
 %table.table
   %thead
     %tr
@@ -21,4 +23,3 @@
           = table_link_to 'undo', t('admin.domain_blocks.undo'), admin_domain_block_path(block)
 
 = paginate @blocks
-= link_to t('admin.domain_blocks.add_new'), new_admin_domain_block_path, class: 'button'

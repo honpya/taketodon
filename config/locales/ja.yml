@@ -1,35 +1,36 @@
 ---
 ja:
   about:
-    about_mastodon: Mastodon は<em>自由でオープンソース</em>なソーシャルネットワークです。商用プラットフォームの代替となる<em>分散型</em>を採用し、あなたのやりとりが一つの会社によって独占されるのを防ぎます。信頼できるインスタンスを選択してください &mdash; どのインスタンスを選んでも、誰とでもやりとりすることができます。 だれでも自分の Mastodon インスタンスを作ることができ、シームレスに<em>ソーシャルネットワーク</em>に参加できます。
+    about_mastodon: 竹トドンはソーシャルネットワーク内の<em>竹林地帯</em>です。
     about_this: このインスタンスについて
     apps: アプリ
     business_email: 'ビジネスメールアドレス:'
     closed_registrations: 現在このインスタンスでの新規登録は受け付けていません。
     contact: 連絡先
-    description_headline: "%{domain} とは？"
+    description_headline: "竹トドンとは？"
     domain_count_after: 個のインスタンス
     domain_count_before: 接続中
     features:
-      api: アプリやその他サービスにAPIを公開
-      blocks: 豊富なブロックやミュート機能
-      characters: 1つの投稿は500文字まで利用可能
-      chronology: 時系列順のタイムライン
-      ethics: 広告もトラッキングもありません
-      gifv: GIFVや短い動画にも対応
-      privacy: 投稿ごとに公開範囲を細かく設定可能
-      public: 公開タイムライン
-    features_headline: Mastodon の特徴
+      a: Mastodon の機能を利用可能
+      b: PC ブラウザの通知音が鹿威し
+      c: 雅さを追求
+      d: 和を追求
+      e: R-18コンテンツの投稿は禁止です
+      f: リモートフォローは原則禁止です
+      g: 画像のアップロードは控えめに
+      h: さぁ、いざ竹の世界へ
+    features_headline: 竹トドンの特徴 / ルール / お願い
     get_started: 参加する
     links: リンク
     other_instances: 他のインスタンス
     source_code: ソースコード
-    status_count_after: トゥート
-    status_count_before: トゥート数
+    status_count_after: cm
+    status_count_before: 成長具合
     terms: プライバシーポリシー
-    user_count_after: 人
-    user_count_before: ユーザー数
+    user_count_after: 本
+    user_count_before: 植樹数
     version: バージョン
+    site_description: 竹トドンでは竹や植物を主に受け入れています。
   accounts:
     follow: フォロー
     followers: フォロワー
@@ -90,7 +91,7 @@ ja:
         report: レポート
         targeted_reports: このアカウントについてのレポート
       silence: サイレンス
-      statuses: トゥート数
+      statuses: 成長具合(cm)
       title: アカウント
       undo_silenced: サイレンスから戻す
       undo_suspension: 停止から戻す
@@ -105,7 +106,7 @@ ja:
         create: ブロックを作成
         hint: ドメインブロックはデータベース中のアカウント項目の作成を妨げませんが、遡って自動的に指定されたモデレーションをそれらのアカウントに適用します。
         severity:
-          desc_html: "<strong>サイレンス</strong>はアカウントのトゥートをフォローしていない人から隠します。<strong>停止</strong>はそのアカウントのコンテンツ、メディア、プロフィールデータをすべて削除します。"
+          desc_html: "<strong>サイレンス</strong>はアカウントの成長をフォローしていない人から隠します。<strong>停止</strong>はそのアカウントのコンテンツ、メディア、プロフィールデータをすべて削除します。"
           silence: サイレンス
           suspend: 停止
         title: 新規ドメインブロック
@@ -271,8 +272,8 @@ ja:
         one: "新しい1件の通知 \U0001F418"
         other: "新しい%{count}件の通知 \U0001F418"
     favourite:
-      body: 'あなたのトゥートが %{name} さんにお気に入り登録されました:'
-      subject: "%{name} さんがあなたのトゥートをお気に入りに登録しました"
+      body: 'あなたの成長が %{name} さんにお気に入り登録されました:'
+      subject: "%{name} さんがあなたの成長をお気に入りに登録しました"
     follow:
       body: "%{name} さんにフォローされています"
       subject: "%{name} さんにフォローされています"
@@ -283,8 +284,8 @@ ja:
       body: "%{name} さんから返信がありました:"
       subject: "%{name} さんに返信されました"
     reblog:
-      body: 'あなたのトゥートが %{name} さんにブーストされました:'
-      subject: あなたのトゥートが %{name} さんにブーストされました
+      body: 'あなたの成長が %{name} さんにブーストされました:'
+      subject: あなたの成長が %{name} さんにブーストされました
   pagination:
     next: 次
     prev: 前

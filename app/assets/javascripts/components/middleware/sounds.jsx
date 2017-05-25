@@ -9,7 +9,7 @@ const play = audio => {
 
 export default function soundsMiddleware() {
   const soundCache = {
-    boop: new Audio(['/sounds/boop.mp3'])
+    boop: new Audio(['/sounds/shishiodoshi.mp3'])
   };
 
   return ({ dispatch }) => next => (action) => {
