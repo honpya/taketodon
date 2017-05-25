@@ -5,12 +5,33 @@ import emojify from '../emoji';
 class DisplayName extends React.PureComponent {
 
   instanceClassName (domain) {
+    let instanceClassName = '';
     switch(domain) {
       case 'mastodon.nara.jp':
-        return 'display-name shika';
+        instanceClassName = 'shika';
+        break;
+      case 'mstdn.osaka':
+        instanceClassName = 'osaka';
+        break;
+      case 'mastodon.wakayama.jp':
+        instanceClassName = 'wakayama';
+        break;
+      case 'biwakodon.com':
+        instanceClassName = 'biwako';
+        break;
+      case 'mastodos.com':
+        instanceClassName = 'kyoto';
+        break;
+      case 'mstdn.hyogo.jp':
+        instanceClassName = 'hyogo';
+        break;
+      case 'miestodon.com':
+        instanceClassName = 'mie';
+        break;
       default:
-        return 'display-name';
+        break;
     }
+    return instanceClassName === '' ? 'display-name' : `display-name ${instanceClassName}`;
   }
 
   render () {
