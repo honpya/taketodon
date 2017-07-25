@@ -12,22 +12,23 @@
   }
 
   h1 {
-    font: 46px/52px 'mastodon-font-sans-serif', sans-serif;
+    font: 46px/52px 'Sawarabi Mincho', serif, sans-serif;
     font-weight: 600;
     margin-bottom: 20px;
     color: $ui-highlight-color;
     padding: 20px 0;
 
     img {
+      vertical-align: top;
       margin-bottom: -5px;
       margin-right: 5px;
-      width: 46px;
-      height: 46px;
+      width: 55px;
+      height: 55px;
     }
   }
 
   h2 {
-    font-family: 'mastodon-font-display', sans-serif;
+    font-family: 'Sawarabi Mincho', serif, sans-serif;
     font-size: 24px;
     line-height: 28px;
     font-weight: 400;
@@ -36,7 +37,7 @@
   }
 
   h3 {
-    font-family: 'mastodon-font-display', sans-serif;
+    font-family: 'Sawarabi Mincho', serif, sans-serif;
     font-size: 20px;
     line-height: 28px;
     font-weight: 400;
@@ -65,7 +66,7 @@
 
   p,
   li {
-    font: 16px/28px 'mastodon-font-sans-serif', sans-serif;
+    font: 16px/28px 'Sawarabi Mincho', serif, sans-serif;
     font-weight: 400;
     margin-bottom: 12px;
 
@@ -81,7 +82,7 @@
     margin: 0 2px;
     background: $ui-primary-color;
     color: $ui-base-color;
-    font: 16px/16px 'mastodon-font-sans-serif', sans-serif;
+    font: 16px/16px 'Sawarabi Mincho', serif, sans-serif;
     font-weight: 300;
   }
 
@@ -135,7 +136,7 @@
     flex: 1 0 0;
     padding: 14px;
     text-align: right;
-    font: 16px/28px 'mastodon-font-sans-serif', sans-serif;
+    font: 16px/28px 'Sawarabi Mincho', serif, sans-serif;
 
     span,
     strong {
