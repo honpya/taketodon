@@ -1,5 +1,5 @@
 code {
-  font-family: 'mastodon-font-monospace', monospace;
+  font-family: 'Sawarabi Mincho', serif, monospace;
   font-weight: 400;
 }
 
@@ -10,6 +10,8 @@ code {
 }
 
 .simple_form {
+  font-family: 'Sawarabi Mincho', serif;
+
   .input {
     margin-bottom: 15px;
     overflow: hidden;
@@ -249,6 +251,7 @@ code {
     border-radius: 4px;
     background: $ui-highlight-color;
     color: $primary-text-color;
+    font-family: inherit;
     font-size: 18px;
     line-height: inherit;
     height: auto;
