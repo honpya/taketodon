@@ -22,11 +22,11 @@ export default function soundsMiddleware() {
   const soundCache = {
     boop: createAudio([
       {
-        src: '/sounds/boop.ogg',
+        src: '/sounds/shishiodoshi-echo.ogg',
         type: 'audio/ogg',
       },
       {
-        src: '/sounds/boop.mp3',
+        src: '/sounds/shishiodoshi-echo.mp3',
         type: 'audio/mpeg',
       },
     ]),
