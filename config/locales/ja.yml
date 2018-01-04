@@ -8,7 +8,7 @@ ja:
     contact: 連絡先
     contact_missing: 未設定
     contact_unavailable: N/A
-    description_headline: "%{domain} とは？"
+    description_headline: "竹トドンとは？"
     domain_count_after: 個のインスタンス
     domain_count_before: 接続中
     extended_description_html: |
@@ -29,10 +29,10 @@ ja:
     learn_more: もっと詳しく
     other_instances: 他のインスタンス
     source_code: ソースコード
-    status_count_after: トゥート
-    status_count_before: トゥート数
-    user_count_after: 人
-    user_count_before: ユーザー数
+    status_count_after: cm
+    status_count_before: 成長具合
+    user_count_after: 本
+    user_count_before: 植樹数
     what_is_mastodon: Mastodon とは？
   accounts:
     follow: フォロー
@@ -125,7 +125,7 @@ ja:
         report: レポート
         targeted_reports: このアカウントについてのレポート
       silence: サイレンス
-      statuses: トゥート数
+      statuses: 成長具合(cm)
       subscribe: 購読する
       title: アカウント
       undo_silenced: サイレンスから戻す
@@ -192,7 +192,7 @@ ja:
         create: ブロックを作成
         hint: ドメインブロックはデータベース中のアカウント項目の作成を妨げませんが、遡って自動的に指定されたモデレーションをそれらのアカウントに適用します。
         severity:
-          desc_html: "<strong>サイレンス</strong>はアカウントのトゥートをフォローしていない人から隠します。<strong>停止</strong>はそのアカウントのコンテンツ、メディア、プロフィールデータをすべて削除します。メディアファイルの拒否は<strong>なし</strong>を使います。"
+          desc_html: "<strong>サイレンス</strong>はアカウントの成長をフォローしていない人から隠します。<strong>停止</strong>はそのアカウントのコンテンツ、メディア、プロフィールデータをすべて削除します。メディアファイルの拒否は<strong>なし</strong>を使います。"
           noop: なし
           silence: サイレンス
           suspend: 停止
@@ -483,8 +483,8 @@ ja:
         one: "新しい1件の通知 \U0001F418"
         other: "新しい%{count}件の通知 \U0001F418"
     favourite:
-      body: "%{name} さんにお気に入り登録された、あなたのトゥートがあります:"
-      subject: "%{name} さんにお気に入りに登録されました"
+      body: "%{name} さんにお気に入り登録された、あなたの成長があります:"
+      subject: "%{name} さんにあなたの成長をお気に入りに登録されました"
     follow:
       body: "%{name} さんにフォローされています！"
       subject: "%{name} さんにフォローされています"
@@ -495,8 +495,8 @@ ja:
       body: "%{name} さんから返信がありました:"
       subject: "%{name} さんに返信されました"
     reblog:
-      body: "%{name} さんにブーストされた、あなたのトゥートがあります:"
-      subject: "%{name} さんにブーストされました"
+      body: "%{name} さんに破竹の勢いと称された、あなたの成長があります:"
+      subject: "%{name} さんに破竹の勢いと称されました"
   number:
     human:
       decimal_units:
