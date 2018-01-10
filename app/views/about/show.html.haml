@@ -9,7 +9,7 @@
 .landing-page
   .header-wrapper
     .mascot-container
-      = image_tag asset_pack_path('elephant-fren.png'), alt: '', role: 'presentation', class: 'mascot'
+      = image_tag asset_pack_path('taketodon-bamboo.png'), alt: '', role: 'presentation', class: 'mascot'
 
     .header
       .container.links
@@ -24,10 +24,6 @@
             - else
               = link_to t('auth.login'), new_user_session_path, class: 'webapp-btn'
           %li= link_to t('about.about_this'), about_more_path
-          %li
-            = link_to 'https://joinmastodon.org/' do
-              = "#{t('about.other_instances')}"
-              %i.fa.fa-external-link{ style: 'padding-left: 5px;' }
 
       .container.hero
         .floats
@@ -36,6 +32,7 @@
           %div{ role: 'presentation', class: 'float-3' }
         .heading
           %h1
+            = image_tag asset_pack_path('taketodon-logo.png'), alt: '', class: 'logo'
             = @instance_presenter.site_title
             %small= t 'about.hosted_on', domain: site_hostname
         - if @instance_presenter.open_registrations

@@ -4,12 +4,14 @@
     %meta{ charset: 'utf-8' }/
     %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1' }/   
     %link{ rel: 'icon', href: favicon_path, type: 'image/x-icon' }/
-    %link{ rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }/
+    %link{ rel: 'apple-touch-icon', sizes: '180x180', href: '/favicons/apple-touch-icon.png' }/
     %link{ rel: 'mask-icon', href: '/mask-icon.svg', color: '#2B90D9' }/
     %link{ rel: 'manifest', href: '/manifest.json' }/
+    %link{:rel => "stylesheet", :href => "//fonts.googleapis.com/earlyaccess/sawarabimincho.css"}/
     %meta{ name: 'msapplication-config', content: '/browserconfig.xml' }/
     %meta{ name: 'theme-color', content: '#282c37' }/
     %meta{ name: 'apple-mobile-web-app-capable', content: 'yes' }/
+    %meta{ name: 'robots', content: 'noindex,follow' }/
 
     %title<
       - if content_for?(:page_title)
