@@ -30,3 +30,11 @@ $ui-highlight-color: $classic-highlight-color !default;        // Vibrant
 
 // Language codes that uses CJK fonts
 $cjk-langs: ja, ko, zh-CN, zh-HK, zh-TW;
+
+
+$breakpoint-mobile: 630px;
+@mixin max-screen($break-point) {
+  @media screen and (max-width: $break-point) {
+    @content;
+  }
+}
