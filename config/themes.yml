@@ -1,1 +1,2 @@
 default: styles/application.scss
+custom: styles/taketodon_custom.scss

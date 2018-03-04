@@ -524,7 +524,7 @@
 
       .character-counter {
         cursor: default;
-        font-family: 'mastodon-font-sans-serif', sans-serif;
+        font-family: 'Sawarabi Mincho', serif, 'mastodon-font-sans-serif', sans-serif;
         font-size: 14px;
         font-weight: 600;
         color: lighten($ui-base-color, 12%);
@@ -1781,7 +1781,7 @@
   }
 
   > .mastodon {
-    background: url('../images/elephant_ui_plane.svg') no-repeat left bottom / contain;
+    background: url('../images/takeko.png') no-repeat left bottom / contain;
     flex: 1;
   }
 }
@@ -4586,7 +4586,7 @@ noscript {
       width: 100%;
       border: none;
       padding: 10px;
-      font-family: 'mastodon-font-monospace', monospace;
+      font-family: 'Sawarabi Mincho', serif, 'mastodon-font-monospace', monospace;
       background: $ui-base-color;
       color: $ui-primary-color;
       font-size: 14px;
