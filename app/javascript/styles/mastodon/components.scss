@@ -1832,7 +1832,7 @@
 }
 
 .drawer__inner__mastodon {
-  background: lighten($ui-base-color, 13%) url('../images/takeko.png') no-repeat left bottom / contain;
+  background: lighten($ui-base-color, 13%);
   flex: 1;
   min-height: 47px;
 
