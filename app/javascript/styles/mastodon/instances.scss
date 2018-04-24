@@ -10,12 +10,6 @@
   font-weight: bold;
 }
 
-.hiroshima:before {
-  content: "(広)";
-  color: #d21320;
-  font-weight: bold;
-}
-
 .hyogo:before {
   content: "(兵)";
   color: #c1e4e9;
@@ -34,15 +28,15 @@
   font-weight: bold;
 }
 
-.osaka:before {
-  content: "(阪)";
-  color: #1b60f1;
+.nagoya:before {
+  content: "(名)";
+  color: #007083;
   font-weight: bold;
 }
 
-.shiga:before {
-  content: "(滋)";
-  color: #3e8bc3;
+.osaka:before {
+  content: "(阪)";
+  color: #1b60f1;
   font-weight: bold;
 }
 

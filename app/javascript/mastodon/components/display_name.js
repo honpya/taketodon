@@ -20,9 +20,6 @@ export default class DisplayName extends React.PureComponent {
       case 'gingadon.com':
         instanceClassName = 'ginga';
         break;
-      case 'hiroshimastodon.red':
-        instanceClassName = 'hiroshima';
-        break;
       case 'mastodon.nara.jp':
         instanceClassName = 'shika';
         break;
@@ -35,14 +32,14 @@ export default class DisplayName extends React.PureComponent {
       case 'miestodon.com':
         instanceClassName = 'mie';
         break;
+      case 'nagoyadon.jp':
+        instanceClassName = 'nagoya';
+        break;
       case 'mstdn.hyogo.jp':
         instanceClassName = 'hyogo';
         break;
       case 'mstdn.osaka':
         instanceClassName = 'osaka';
-        break;
-      case 'shigadon.com':
-        instanceClassName = 'shiga';
         break;
       default:
         instanceClassName = 'unknown';
