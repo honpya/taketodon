@@ -75,6 +75,10 @@ body {
   background: rgba(lighten($ui-base-color, 13%), 0.6);
 }
 
+.drawer__inner__mastodon {
+  background: none;
+}
+
 .drawer__header {
   background: rgba(lighten($ui-base-color, 8%), 0.3);
 }
