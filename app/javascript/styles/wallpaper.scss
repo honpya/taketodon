@@ -269,3 +269,8 @@ body {
     background: rgba($ui-base-color, 0.4);
   }
 }
+
+.empty-column-indicator,
+.error-column {
+  color: lighten($ui-base-color, 50%);
+}
