@@ -15,7 +15,7 @@ body {
     background: url($wallpaper) center center / cover no-repeat fixed;
 
     @include max-screen($breakpoint-mobile) {
-      background: url($wallpaper) center center no-repeat fixed;
+      background: url($wallpaper) no-repeat fixed;
     }
 
     .status__wrapper {
