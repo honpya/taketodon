@@ -1,10 +1,6 @@
 {
-<<<<<<< HEAD
   "account.badges.bot": "Bot",
-  "account.block": "@{name}さんをブロック",
-=======
   "account.block": "@{name}さんを根絶やし",
->>>>>>> 6f6177a0b... Customized for Taketodon
   "account.block_domain": "{domain}全体を非表示",
   "account.blocked": "ブロック済み",
   "account.direct": "@{name}さんにダイレクトメッセージ",
@@ -31,13 +27,8 @@
   "account.unblock": "@{name}さんの根絶やしを解除",
   "account.unblock_domain": "{domain}を表示",
   "account.unfollow": "フォロー解除",
-<<<<<<< HEAD
-  "account.unmute": "@{name}さんのミュートを解除",
-  "account.unmute_notifications": "@{name}さんからの通知を受け取るようにする",
-=======
   "account.unmute": "@{name}さんの間伐を解除",
-  "account.unmute_notifications": "@{name}さんからの通知を受け取る",
->>>>>>> 6f6177a0b... Customized for Taketodon
+  "account.unmute_notifications": "@{name}さんからの通知を受け取るようにする",
   "account.view_full_profile": "全ての情報を見る",
   "alert.unexpected.message": "不明なエラーが発生しました。",
   "alert.unexpected.title": "エラー！",
@@ -50,13 +41,9 @@
   "bundle_modal_error.retry": "再試行",
   "column.blocks": "根絶やしにしたユーザー",
   "column.community": "ローカルタイムライン",
-<<<<<<< HEAD
   "column.direct": "ダイレクトメッセージ",
   "column.domain_blocks": "非表示にしたドメイン",
-  "column.favourites": "お気に入り",
-=======
   "column.favourites": "肥料を与えた成長",
->>>>>>> 6f6177a0b... Customized for Taketodon
   "column.follow_requests": "フォローリクエスト",
   "column.home": "ホーム",
   "column.lists": "リスト",
@@ -150,14 +137,9 @@
   "keyboard_shortcuts.mention": "メンション",
   "keyboard_shortcuts.reply": "返信",
   "keyboard_shortcuts.search": "検索欄に移動",
-<<<<<<< HEAD
   "keyboard_shortcuts.toggle_hidden": "CWで隠れた文を見る/隠す",
-  "keyboard_shortcuts.toot": "新規トゥート",
-  "keyboard_shortcuts.unfocus": "トゥート入力欄・検索欄から離れる",
-=======
   "keyboard_shortcuts.toot": "新規成長",
   "keyboard_shortcuts.unfocus": "成長入力欄・検索欄から離れる",
->>>>>>> 6f6177a0b... Customized for Taketodon
   "keyboard_shortcuts.up": "カラム内一つ上に移動",
   "lightbox.close": "閉じる",
   "lightbox.next": "次",
