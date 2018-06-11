@@ -1,0 +1,59 @@
+.biwako:before {
+  content: "(琵)";
+  color: #fcc800;
+  font-weight: bold;
+}
+
+.ginga:before {
+  content: "(銀)";
+  color: #c0c0c0;
+  font-weight: bold;
+}
+
+.hyogo:before {
+  content: "(兵)";
+  color: #c1e4e9;
+  font-weight: bold;
+}
+
+.kyoto:before {
+  content: "(京)";
+  color: #9d5b8b;
+  font-weight: bold;
+}
+
+.mie:before {
+  content: "(三)";
+  color: #b0ca71;
+  font-weight: bold;
+}
+
+.nagoya:before {
+  content: "(名)";
+  color: #007083;
+  font-weight: bold;
+}
+
+.osaka:before {
+  content: "(阪)";
+  color: #1b60f1;
+  font-weight: bold;
+}
+
+.shika:before {
+  content: "(鹿)";
+  color: #8d6449;
+  font-weight: bold;
+}
+
+.unknown:before {
+  content: "[謎]";
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.wakayama:before {
+  content: "(和)";
+  color: #ec6d71;
+  font-weight: bold;
+}
