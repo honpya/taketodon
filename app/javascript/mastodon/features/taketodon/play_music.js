@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 export default class PlayMusic extends React.PureComponent {
 
   constructor(props) {
     super(props);
     this.state = {
-      isPlaying: false
+      isPlaying: false;
     };
   }
 
@@ -60,15 +60,15 @@ export default class PlayMusic extends React.PureComponent {
   render () {
     const today = new Date()
     if (today.getMonth() + 1 !== 1 || today.getDate() > 3) {
-        return null
+        return null;
     }
     return (
       <div>
-        <audio id="music" name="music" preload="auto" volume="0.1">
+        <audio id='music' name='music' preload='auto' volume='0.1'>
           <source src={this.props.path} />
         </audio>
-        <button className="icon-button" onClick={this.handleClick}>
-          <i className={`fa fa-fw ${this.iconStyle()}`} aria-hidden="true"></i>
+        <button className='icon-button' onClick={this.handleClick}>
+          <i className={`fa fa-fw ${this.iconStyle()}`} aria-hidden='true'/>
         </button>
       </div>
     )
