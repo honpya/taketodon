@@ -11,12 +11,14 @@
       %link{ rel: 'dns-prefetch', href: storage_host }/
 
     %link{ rel: 'icon', href: favicon_path, type: 'image/x-icon' }/
-    %link{ rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }/
+    %link{ rel: 'apple-touch-icon', sizes: '180x180', href: '/favicons/apple-touch-icon.png' }/
     %link{ rel: 'mask-icon', href: '/mask-icon.svg', color: '#2B90D9' }/
     %link{ rel: 'manifest', href: '/manifest.json' }/
+    %link{:rel => "stylesheet", :href => "https://fonts.googleapis.com/css?family=Sawarabi+Mincho"}/
     %meta{ name: 'msapplication-config', content: '/browserconfig.xml' }/
     %meta{ name: 'theme-color', content: '#282c37' }/
     %meta{ name: 'apple-mobile-web-app-capable', content: 'yes' }/
+    %meta{ name: 'robots', content: 'noindex,follow' }/
 
     %title= content_for?(:page_title) ? safe_join([yield(:page_title).chomp.html_safe, title], ' - ') : title
 
